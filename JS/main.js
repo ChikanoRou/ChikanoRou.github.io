@@ -1,7 +1,21 @@
-/* Start Preload */
+ /* Start Preload */
 
-setTimeout(function(){
+setTimeout(function () {
 	document.body.classList.add('body_visible');
 }, 300);
 
-/* End Preload */
+ // End Preload //
+
+ // Start Audio //
+
+let soundButton = document.querySelector('.soundbutton'),
+	audio = document.querySelector('.audio')
+
+soundButton.addEventListener('click', e => {
+	soundButton.classList.toggle('paused')
+	audio.paused ? audio.play() : audio.pause()
+})
+
+ // End Audio //
+
+ 
