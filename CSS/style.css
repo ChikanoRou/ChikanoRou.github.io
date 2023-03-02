@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Start Preload */
+
+.body_hide {
+	opacity: 0;
+	transition: 3s opacity ease-in-out;
+}
+.body_visible {
+	opacity: 1;
+}
+
+/* End Preload */
+
+body {
+    background-color: #000;
+    color: aqua;
+}
