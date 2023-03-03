@@ -18,4 +18,8 @@ soundButton.addEventListener('click', e => {
 
  // End Audio //
 
- 
+//  $(function() {
+// 	setTimeout(function() {
+// 	  $(".footer__inner-item").css("background-color", "green");
+// 	}, 2000);
+//   });
