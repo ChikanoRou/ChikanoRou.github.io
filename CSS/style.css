@@ -1,6 +1,6 @@
 /* Preloader Start */
 
-.loaderArea {
+/* .loaderArea {
     background: linear-gradient(90deg, #000000 10%, #000000 90%);
     overflow: hidden;
     position: fixed;
@@ -59,7 +59,7 @@
   100% {
     transform: rotate(-180deg) skew(-360deg);
   }
-}
+} */
 
 /* End Preloader  */
 
