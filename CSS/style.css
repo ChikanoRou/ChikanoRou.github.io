@@ -1,8 +1,4 @@
 
-html:active {
-cursor: grabbing;
-}
-
 /* Preloader Start */
 
 /* .loaderArea {
@@ -78,6 +74,18 @@ body {
     -khtml-user-select: none; 
     user-select: none;
     cursor: grab;
+}
+
+body:active {
+cursor: grabbing;
+}
+
+.body_hide:active {
+cursor: grabbing;
+}
+
+.body_visible:active {
+cursor: grabbing;
 }
 
 /* Start Fonts */
