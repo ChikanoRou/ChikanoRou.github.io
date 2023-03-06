@@ -88,6 +88,27 @@ cursor: grabbing;
 cursor: grabbing;
 }
 
+.sold {
+    opacity: 20%;
+}
+
+.sold:hover:after {
+    opacity: 100%;
+
+    content: "Highest Bid 15 SCRT";
+    color: #fff;
+    display: flex;
+    text-align: center;
+    font-family: raleway_c, sans-serif;
+    font-size: 16px;
+    
+}
+
+.sold:hover {
+    opacity: 100%;
+    text-decoration: none;
+}
+
 /* Start Fonts */
 
 @font-face {
