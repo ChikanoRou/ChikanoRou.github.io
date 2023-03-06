@@ -75,6 +75,10 @@ body {
     cursor: grab;
 }
 
+body:active {
+cursor: grabbing;
+}
+
 /* Start Fonts */
 
 @font-face {
